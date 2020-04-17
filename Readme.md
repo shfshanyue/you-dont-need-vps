@@ -10,8 +10,8 @@
 1. [使用 Netlify 托管静态网站与持续集成](https://shanyue.tech/no-vps/deploy-fe-with-netlify.html)
 1. [使用 AliOSS 部署及加速你的静态网站](https://shanyue.tech/no-vps/deploy-fe-with-alioss.html)
 1. [Github Actions 持续集成简介及实践](https://shanyue.tech/no-vps/github-action-guide.html)
-1. [Serverless 与 Serverless Framework](https://shanyue.tech/no-vps/serverless.html)
-1. [开发你的第一个 Serverless 应用]() - TODO
+1. [使用 Serverless Framework 开发第一个云函数](https://shanyue.tech/no-vps/serverless.html)
+1. [使用 serverless Component 开发第一个 Koa 应用](https://shanyue.tech/no-vps/sls-koa.html)
 1. [Serverless 与便捷的本地调试]() - TODO
 1. [使用 Serverless 搭建博客]() - TODO
 1. [Sentry，指标与异常上报]() - TODO
