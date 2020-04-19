@@ -2,14 +2,9 @@
 
 对于稍微大型的 Node 应用，`typescript` 已经是标配，它为 `javascript` 提供了强类型的铠甲，有效提高了代码质量。
 
-这里是一个结合 `ts` 及 `koa` 快速部署到腾讯云函数计算中的模板。
+这里是一个结合 `ts` 及 `koa` 快速部署到腾讯云函数计算中的模板。仓库见下
 
-## 缺点
-
-1. 部署麻烦，需要先编译 ts 至 js，并且仅上传生产环境需要的 node_modules (全部上传速度过慢)
-1. 在本地不支持 `log` 及 `metrics`，需要转至腾讯云控制台查看
-
-> 由于部署过程稍微复杂，可以考虑重写一个关于 ts 的 serverless component
++ [shfshanyue/serverless-template-zh](https://github.com/shfshanyue/serverless-template-zh): 中国云厂商 serverless framework 模板及示例 （更快的访问速度）
 
 ## 快速使用
 
@@ -133,3 +128,12 @@ koa-function [██████████████████████
 $ curl https://service-dture22u-1257314149.gz.apigw.tencentcs.com/release/
 hello, path: '/'# 
 ```
+
+## 缺点
+
+在开始之前，稍微提一下缺点：
+
+1. 部署麻烦，需要先编译 ts 至 js，并且仅上传生产环境需要的 node_modules (全部上传速度过慢)
+1. 在本地不支持 `log` 及 `metrics`，需要转至腾讯云控制台查看
+
+> 由于部署过程稍微复杂，可以考虑重写一个关于 ts 的 serverless component

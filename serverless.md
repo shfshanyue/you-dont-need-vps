@@ -191,6 +191,7 @@ Functions:
 
 从本篇文章，可以大概知道如何在腾讯云初建一个 `serverless` 函数，并且知道了如何执行并且调用它，但好像仅仅如此。在日常的技术讨论中，它往往与业务开发结合在一起，在接下来的篇章中，我将介绍
 
-1. 如何使用 `serverless` 部署前端应用，如 `react`/`vue`。
 1. 如何使用 `serverless` 部署 API Server，如 `koa`，`python`，`go`
+1. 如何使用 `serverless` 部署纯前端应用，如 `react`/`vue`
+1. 如何使用 `serverless` 部署 SSR 应用，如 `next`/`nuxt`
 1. 如何使用 `serverless` 跑定时任务及爬虫
